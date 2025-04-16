@@ -6,13 +6,13 @@ public class ProdutoImportado extends Produto{
     public void imprimirProdutoImportado(){
         super.imprimirProduto();
         System.out.println("Origem: " + origem);
-        System.out.printf("Aliquota %.2f\n", aliquota);
+        System.out.printf("Aliquota %.2f%%\n", aliquota);
     }
 
     @Override
     public double calcularPrecoVenda() {
         // TODO Auto-generated method stub
-        if(super.getPreco() > 50){
+        if(super.getPreco() > 250){
             return super.calcularPrecoVenda() + (super.getPreco()*(this.aliquota/100));
         } else {
             return super.calcularPrecoVenda();

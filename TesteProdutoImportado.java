@@ -18,7 +18,7 @@ public class TesteProdutoImportado {
         produtoImportado.imprimirProdutoImportado();
 
         //Criação e instância de outro produto importado
-        ProdutoImportado outroProdutoImportado = new ProdutoImportado("Sabão", 30.0, 20.0, "Jalapão", 100.0);
+        ProdutoImportado outroProdutoImportado = new ProdutoImportado("Sabão", 260.0, 20.0, "Jalapão", 100.0);
 
         //Imprimindo outro produto importado
         System.out.println("\n\t\t\t -- Outro Produto Importado --\n");
